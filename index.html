@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Exchange — Student Athlete Professional Development</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: Georgia, serif;
+    color: #1a1a1a;
+    background: #fff;
+    line-height: 1.7;
+  }
+
+  nav {
+    background: #1a1a1a;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .logo {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+  }
+
+  nav a:hover { color: #fff; }
+
+  .hero {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: normal;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .hero a {
+    background: #fff;
+    color: #1a1a1a;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+
+  .hero a:hover { background: #e0e0e0; }
+
+  .stats {
+    background: #f5f5f0;
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    display: block;
+  }
+
+  .stat-label {
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: #666;
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+
+  section h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+  }
+
+  section p {
+    font-size: 1.05rem;
+    color: #333;
+    margin-bottom: 1.2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 0;
+  }
+
+  .problem-list {
+    list-style: none;
+    margin: 1.5rem 0;
+  }
+
+  .problem-list li {
+    font-family: Arial, sans-serif;
+    font-size: 1.05rem;
+    color: #333;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+
+  .problem-list li:before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #999;
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .col h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1a1a1a;
+  }
+
+  .col p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+  }
+
+  .four-year {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .year {
+    background: #f5f5f0;
+    padding: 1.5rem;
+  }
+
+  .year-label {
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
+
+  .year h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .year p {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .docs {
+    background: #f5f5f0;
+    padding: 3rem 2rem;
+  }
+
+  .docs-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .docs h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  .docs p {
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  .doc-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .doc-link {
+    background: #fff;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    border-left: 3px solid #1a1a1a;
+    display: block;
+  }
+
+  .doc-link:hover { background: #e8e8e0; }
+
+  .doc-link span {
+    display: block;
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 0.3rem;
+  }
+
+  .origin {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .origin-inner {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .origin h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+  }
+
+  .origin p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+
+  .origin .attribution {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 2rem;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact h2 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+
+  .contact p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+
+  .contact a {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .contact a:hover { background: #333; }
+
+  footer {
+    background: #f5f5f0;
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #999;
+  }
+
+  footer a { color: #666; text-decoration: none; }
+  footer a:hover { color: #1a1a1a; }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.8rem; }
+    .stats { gap: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="/">THE EXCHANGE</a>
+  <a href="mailto:danneskjold047@gmail.com">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Athletes need work experience before they leave college.</h1>
+  <p>The Exchange is the protocol that makes it possible — inside the schedule they already have.</p>
+  <a href="mailto:danneskjold047@gmail.com">Start the conversation →</a>
+</div>
+
+<div class="stats">
+  <div>
+    <span class="stat-number">56%</span>
+    <p class="stat-label">of men's DI athletes wish coaches discussed career preparation more</p>
+  </div>
+  <div>
+    <span class="stat-number">15%</span>
+    <p class="stat-label">want an internship but cannot do one because of their sport</p>
+  </div>
+  <div>
+    <span class="stat-number">94%</span>
+    <p class="stat-label">say athletics built their work ethic</p>
+  </div>
+</div>
+
+<p style="text-align:center; font-family:Arial,sans-serif; font-size:0.75rem; color:#999; padding: 0.5rem;">
+  Source: NCAA GOALS Study (2025) — 20,887 student-athletes across 493 schools
+</p>
+
+<hr class="divider">
+
+<section>
+  <h2>The problem</h2>
+  <p>The current system does not work for most athletes.</p>
+  <ul class="problem-list">
+    <li>Internships don't fit the athletic schedule</li>
+    <li>NIL contracts reach a small percentage of athletes</li>
+    <li>Athletes need verifiable work experience before graduation</li>
+    <li>Athletic departments don't have professional development 
+        infrastructure outside the sport itself</li>
+  </ul>
+  <p>The problem is not motivation. It is not capability. 
+  Every athlete competing at a high level already has the skills. 
+  The problem is that those skills are invisible — and every existing 
+  tool for building professional credibility was designed for people 
+  who have time.</p>
+</section>
+
+<hr class="divider">
+
+<section>
+  <h2>What The Exchange produces</h2>
+  <p>Each session pairs a cohort of athletes with a domain expert — 
+  someone who has operated at a professional level in a target industry. 
+  Together they map the competitive landscape of a real partner organization.</p>
+
+  <div class="three-col">
+    <div class="col">
+      <h3>Landscape</h3>
+      <p>The athlete maps a real industry for a real organization — 
+      challenged by a domain expert against what actually happens, 
+      not what research claims.</p>
+    </div>
+    <div class="col">
+      <h3>Team</h3>
+      <p>The session documents how the athlete contributed, 
+      what they challenged, and how they responded to correction. 
+      That is a more accurate picture of professional behavior 
+      than any interview question produces.</p>
+    </div>
+    <div class="col">
+      <h3>Results</h3>
+      <p>The partner organization received the map and used it. 
+      What they did with it — the decision it informed, the 
+      strategy it changed — is documented in the portfolio entry.</p>
+    </div>
+  </div>
+
+  <p>The athlete does not say "I developed strategic thinking skills." 
+  They open a portfolio and say: here is the map I produced, 
+  here is who verified it, here is what the organization did with it.</p>
+  <p>That is not a conversation about potential. 
+  That is a record of results.</p>
+</section>
+
+<hr class="divider">
+
+<section>
+  <h2>Four years of verifiable work</h2>
+  <p>One session is a start. Four years is a body of work 
+  no other candidate in the hiring pool can match.</p>
+
+  <div class="four-year">
+    <div class="year">
+      <p class="year-label">Year 1</p>
+      <h3>Self mapping</h3>
+      <p>Map your own context. Make your skills, network, 
+      and strategic awareness visible for the first time.</p>
+    </div>
+    <div class="year">
+      <p class="year-label">Year 2</p>
+      <h3>Landscape mapping</h3>
+      <p>Map the domains you want to enter. Learn to read 
+      where industries are moving and where the leverage is.</p>
+    </div>
+    <div class="year">
+      <p class="year-label">Year 3</p>
+      <h3>Organizational mapping</h3>
+      <p>Map actual organizations. Produce your first 
+      verifiable deliverable for a real partner.</p>
+    </div>
+    <div class="year">
+      <p class="year-label">Year 4</p>
+      <h3>Portfolio</h3>
+      <p>A body of work any organization can open, 
+      read, and evaluate directly.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section>
+  <h2>For athletic departments</h2>
+  <p>The House v. NCAA settlement creates compliance pressure 
+  across Division I — including MEAC institutions operating 
+  with smaller budgets than Power Five programs.</p>
+  <p>The Exchange satisfies the beyond-NIL professional 
+  development mandate while producing auditable records 
+  that satisfy accreditation requirements — at near-zero 
+  operational cost.</p>
+  <p>One chapter replaces or supplements one career services 
+  function. The protocol costs nothing to operate once 
+  established. The first session is the proof of concept — 
+  no contract required to begin.</p>
+</section>
+
+<hr class="divider">
+
+<div class="docs">
+  <div class="docs-inner">
+    <h2>Protocol documentation</h2>
+    <p>The full governance architecture — principles, stakeholder 
+    analysis, risk register, business case, and requirements — 
+    is publicly verifiable. No meeting required to review it.</p>
+    <div class="doc-links">
+      <a class="doc-link" href="projects/000-global/ARC-000-PRIN-v1.0.md">
+        Architecture Principles
+        <span>Six non-negotiable protocol rules</span>
+      </a>
+      <a class="doc-link" href="projects/001-chapter-mvp/ARC-001-STKE-v1.0.md">
+        Stakeholder Analysis
+        <span>Athletes, TACs, universities, partners</span>
+      </a>
+      <a class="doc-link" href="projects/001-chapter-mvp/ARC-001-RISK-v1.0.md">
+        Risk Register
+        <span>Seven risks, rated and mitigated</span>
+      </a>
+      <a class="doc-link" href="projects/001-chapter-mvp/ARC-001-SOBC-v1.0.md">
+        Business Case
+        <span>Five-case model for university engagement</span>
+      </a>
+      <a class="doc-link" href="projects/001-chapter-mvp/ARC-001-REQ-v1.0.md">
+        Chapter Requirements
+        <span>What a compliant chapter must do</span>
+      </a>
+      <a class="doc-link" href="projects/001-chapter-mvp/ARC-001-PLAN-v1.0.md">
+        MVP Deployment Plan
+        <span>Six phases, MEAC conference</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="origin">
+  <div class="origin-inner">
+    <h2>The origin</h2>
+    <p>I played football at West Point and Oregon State. 
+    I tried out for the San Francisco 49ers and got cut. 
+    After 18 years of football, the identity that defined 
+    everything was suddenly irrelevant.</p>
+    <p>I became a Ranger — The SeaBass, 1-Bravo, B. CO. 2/75, 
+    2nd Battalion, 75th Ranger Regiment. I served in Afghanistan 
+    and was part of Operation Red Wings, the recovery mission 
+    for Navy SEAL Marcus Luttrell.</p>
+    <p>When I came back to athletics — as Managing Director of 
+    the OSU Athletics Leadership Institute — I gave athletes 
+    a problem to solve: how do you build real work credibility 
+    on a 34-hour athletic schedule? One team built the Student 
+    Athlete Exchange. It won first place at the 2013 OSU 
+    Startup Weekend.</p>
+    <p>That was the first answer. The Exchange is what thirteen 
+    years of field work revealed the answer actually needed to be.</p>
+    <p class="attribution">— Akili King, Founder</p>
+  </div>
+</div>
+
+<div class="contact">
+  <h2>One conversation starts it</h2>
+  <p>One university. One domain expert. One partner organization. 
+  One session. The portfolio entry closes the conversation.</p>
+  <a href="mailto:danneskjold047@gmail.com">
+    Start the conversation →
+  </a>
+</div>
+
+<footer>
+  <p>The Exchange Protocol — MIT Licensed — 
+  <a href="https://github.com/Akili-47/student-athlete-exchange">
+    github.com/Akili-47/student-athlete-exchange
+  </a>
+  </p>
+  <p style="margin-top:0.5rem;">
+    Session method: Creative Commons — 
+    Wardley Mapping by Simon Wardley
+  </p>
+</footer>
+
+</body>
+</html>
