@@ -22,6 +22,58 @@ an Exchange chapter regardless of what it calls itself.
 
 ## FUNCTIONAL REQUIREMENTS
 
+### FR-000 — Baseline preparation standard
+
+Before participating in any Exchange session —
+athlete, TAC, or observer — every participant
+reads the following document:
+
+**Wardley Mapping 101: A Beginner's Guide**
+https://www.wardleymaps.com/guides/wardley-mapping-101
+
+15 minutes. Beginner level.
+Built by Krzysztof Daniel. Approved by Simon Wardley.
+Licensed CC BY-SA 4.0.
+
+This is the only preparation required before Session 1.
+It is not optional for athletes.
+It is not optional for TACs.
+
+The guide establishes shared vocabulary across all
+participants regardless of prior experience:
+genesis / custom / product / commodity,
+value chain, user need, evolution positioning.
+
+**The two lines every participant must internalize:**
+
+"Do not speculate."
+The TAC corrects honest placements.
+The TAC cannot unwind a defended guess.
+
+"You might have many custom components.
+It does not mean that everyone else has them."
+This is Custom Bias. The TAC will challenge it
+in every session. The guide names it in advance.
+
+**What this guide does not cover:**
+
+The guide explains how to build a map.
+It does not explain what changes in an Exchange session.
+
+Athletes also read ARC-000-BRIEF-v1.0.md before
+Session 1. That document covers the three distinctions
+the 101 guide cannot make:
+- The map is a deliverable, not a practice exercise
+- The TAC is a challenger, not a teacher
+- The gap between where research placed a component
+  and where the TAC placed it is the portfolio entry
+
+**Compliance evidence:** TAC confirms at session open
+that all athletes have read both documents.
+No test. No quiz. The session surfaces compliance.
+
+---
+
 ### FR-001 — TAC pre-session setup
 
 Before athletes arrive, the TAC defines the segmented
@@ -111,43 +163,27 @@ for each challenged component:
 
 ---
 
-### FR-006 — ETU captured at session close
+### FR-006 — Session record captured at close
 
-The Map Lead captures an Execution Trace Unit (ETU)
+The Map Lead captures a structured session record
 in SCQA format at the close of every session.
 This is the last ten minutes of every session.
 It is not optional.
 
-ETU structure:
-- **Situation:** What the research-derived map showed
-- **Complication:** What the TAC corrected and why
+SCQA structure:
+- **Situation:** What the landscape looked like
+  when the session began
+- **Complication:** What the TAC challenged
+  and what shifted as a result
 - **Question:** What the corrected landscape reveals
-- **Answer:** What gameplay the accurate map suggests
+  that was not visible before
+- **Answer:** What the session concluded
 
-The ETU is co-signed by the Map Lead and TAC
-before the session closes.
+The session record is co-signed by the Map Lead
+and TAC before the session closes.
 
-**Compliance evidence:** Signed ETU document
+**Compliance evidence:** Signed session record
 timestamped before session close.
-
----
-
-### FR-007 — Portfolio entry dual-hashed and timestamped
-
-Every portfolio entry is processed through the
-Work Ledger before the session closes.
-
-Dual-hash process:
-- Shared payload: organizational verification hash
-- Private payload: athlete-owned provenance hash
-  (includes MY READ field — athlete's own interpretation)
-
-Bitcoin-anchored timestamp establishes ownership
-at moment of creation. This record cannot be
-overridden by institutional policy.
-
-**Compliance evidence:** Work Ledger hash record
-with timestamp per portfolio entry.
 
 ---
 
@@ -156,14 +192,15 @@ with timestamp per portfolio entry.
 ### NFR-001 — Athlete owns portfolio entry
 
 No institution — university, partner organization,
-or Exchange chapter — can access the athlete's
-private payload without explicit athlete consent.
+or Exchange chapter — can claim ownership of
+work product produced by an athlete in a session.
 
-The dual-hash boundary is technical, not policy.
-It cannot be overridden by an institutional decision.
+Portfolio entries belong to the athlete who produced them.
+This is established in writing before the first session
+through the chapter participation agreement.
 
-**Compliance evidence:** Work Ledger private payload
-key held by athlete, not institution.
+**Compliance evidence:** Signed participation agreement
+on file for every athlete before Session 1.
 
 ---
 
@@ -185,7 +222,7 @@ of professional operation specified.
 ### NFR-003 — Session artifacts version controlled
 
 All session artifacts — pre-work canvas, phase outputs,
-ETU, portfolio entry — are stored in a version-controlled
+session record — are stored in a version-controlled
 system before the session is considered complete.
 
 GitHub is the recommended system.
@@ -206,4 +243,41 @@ The public GitHub repository at:
 github.com/Akili-47/student-athlete-exchange
 
 contains all compliance criteria, requirements,
-and veri
+and verification evidence. No meeting required.
+
+**Compliance evidence:** Governance repository publicly
+accessible. All ARC documents versioned and linked
+from the public-facing site at:
+akili-47.github.io/student-athlete-exchange
+
+---
+
+## COMPLIANCE MATRIX
+
+| Requirement | Enforcement Mechanism | Compliance Evidence |
+|---|---|---|
+| FR-000 — Baseline preparation | TAC confirmation at session open | Verbal confirmation logged in session record |
+| FR-001 — TAC pre-session setup | TAC pre-work artifact | Documented canvas before Phase 1 |
+| FR-002 — Phase 1 open capture | Session artifact review | All contributions visible pre-cluster |
+| FR-003 — Phase 2 TAC challenge | Challenge notes in artifact | Pre/post cluster states documented |
+| FR-004 — Phase 3 value chain | TAC enforcement | Named user + traced dependencies |
+| FR-005 — Phase 4 evolution challenge | TAC operational knowledge | Assumption delta per component |
+| FR-006 — Session record at close | Co-signed SCQA document | Timestamped record |
+| NFR-001 — Athlete ownership | Participation agreement | Signed before Session 1 |
+| NFR-002 — TAC domain currency | Credential document | Domain + dates on file |
+| NFR-003 — Version control | Repository commit | Timestamped artifacts |
+| NFR-004 — Third-party verifiability | Public repository | No meeting required |
+
+---
+
+## Version History
+
+| Version | Date | Change |
+|---|---|---|
+| 1.0 | April 2026 | Initial release |
+
+---
+
+*This document is part of The Exchange Protocol governance
+architecture. Built with ArcKit. Stored in version control.
+Publicly verifiable.*
