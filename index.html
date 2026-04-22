@@ -206,6 +206,67 @@
     line-height: 1.5;
   }
 
+  /* NIL callout band */
+  .nil-band {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 3.5rem 2rem;
+  }
+
+  .nil-band-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .nil-band h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+
+  .nil-band p {
+    font-family: Arial, sans-serif;
+    font-size: 1.05rem;
+    color: #ccc;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+  }
+
+  .nil-band strong {
+    color: #fff;
+  }
+
+  .nil-stat-row {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+  }
+
+  .nil-stat {
+    text-align: left;
+  }
+
+  .nil-stat-number {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    font-family: Georgia, serif;
+  }
+
+  .nil-stat-label {
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: #888;
+    max-width: 200px;
+    margin-top: 0.3rem;
+  }
+
   .docs {
     background: #f5f5f0;
     padding: 3rem 2rem;
@@ -254,6 +315,81 @@
     color: #999;
     margin-top: 0.3rem;
   }
+
+  /* How This Was Built section */
+  .built {
+    background: #fff;
+    padding: 3rem 2rem;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .built-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .built h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  .built p {
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+  }
+
+  .built-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .built-step {
+    padding: 1.2rem 1.4rem;
+    border-left: 3px solid #e0e0e0;
+  }
+
+  .built-step .step-label {
+    font-family: Arial, sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999;
+    margin-bottom: 0.4rem;
+  }
+
+  .built-step h3 {
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    color: #1a1a1a;
+  }
+
+  .built-step p {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .built-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 0.1rem;
+  }
+
+  .built-link:hover { color: #555; border-color: #555; }
 
   .origin {
     background: #1a1a1a;
@@ -335,6 +471,7 @@
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8rem; }
     .stats { gap: 2rem; }
+    .nil-stat-row { gap: 1.5rem; }
   }
 </style>
 </head>
@@ -346,7 +483,7 @@
 </nav>
 
 <div class="hero">
-  <h1>Athletes need work experience before they leave college.</h1>
+  <h1>Athletes build work experience while they compete.</h1>
   <p>Athletic departments that run The Exchange become what Ivy League schools are to consulting firms — a recognized pipeline for developing the kind of judgment employers cannot train for after the fact.</p>
   <a href="mailto:akili.king@hardy47.com">Start the conversation →</a>
 </div>
@@ -391,6 +528,46 @@
 
 <hr class="divider">
 
+<!-- NIL PROBLEM SECTION -->
+<div class="nil-band">
+  <div class="nil-band-inner">
+    <h2>The NIL problem no one is solving</h2>
+    <p>Name, Image, and Likeness was supposed to change everything for college athletes. 
+    In practice, it changed everything for a small number of athletes — 
+    the most visible players in the most visible sports at the most visible programs.</p>
+    <p>The House v. NCAA settlement (2025) added revenue sharing and compliance pressure 
+    across all of Division I. President Trump's April 2026 executive order added further 
+    regulatory complexity. The result: <strong>athletic departments now face a professional 
+    development mandate with no mechanism to fulfill it at scale.</strong></p>
+
+    <div class="nil-stat-row">
+      <div class="nil-stat">
+        <span class="nil-stat-number">~1%</span>
+        <p class="nil-stat-label">of college athletes earn significant NIL income</p>
+      </div>
+      <div class="nil-stat">
+        <span class="nil-stat-number">99%</span>
+        <p class="nil-stat-label">compete without a mechanism to build verifiable professional credibility</p>
+      </div>
+      <div class="nil-stat">
+        <span class="nil-stat-number">4 yrs</span>
+        <p class="nil-stat-label">of athletic career that could be building a portfolio — but isn't</p>
+      </div>
+    </div>
+
+    <p>Athletes do not stop developing when their sport ends. 
+    They evolve — carrying forward the discipline, the competitive instinct, 
+    and the capacity for high-stakes performance that four years of elite competition builds. 
+    What they lack is a record of that development that any employer can open and evaluate.</p>
+    <p><strong>The Exchange is the mechanism for the 99%.</strong> 
+    It produces verifiable work during the athletic career — not after it — 
+    so that when the sport phase ends, the athlete already has a body of work 
+    no other candidate in the hiring pool can match.</p>
+  </div>
+</div>
+
+<hr class="divider">
+
 <section>
   <h2>What The Exchange produces</h2>
   <p>Each session pairs a cohort of athletes with a domain expert — 
@@ -430,8 +607,10 @@
 
 <section>
   <h2>Four years of verifiable work</h2>
-  <p>One session is a start. Four years is a body of work 
-  no other candidate in the hiring pool can match.</p>
+  <p>The athletic career is not a transition waiting to happen. 
+  It is four years of high-performance development that can run 
+  alongside a growing professional record. One session is a start. 
+  Four years is a body of work no other candidate in the hiring pool can match.</p>
 
   <div class="four-year">
     <div class="year">
@@ -515,13 +694,53 @@
   </div>
 </div>
 
+<!-- HOW THIS WAS BUILT SECTION -->
+<div class="built">
+  <div class="built-inner">
+    <h2>How this was built</h2>
+    <p>The Exchange Protocol is not a pitch deck. It is a governance architecture 
+    built in the open — every document version-controlled, every decision traceable, 
+    every claim verifiable before a single conversation with a university takes place.</p>
+    <p>The methodology follows ArcKit — a structured governance framework that enforces 
+    documentation before each phase of work begins. The result is an architecture any 
+    institution can audit without a meeting, and any researcher can challenge without a gate.</p>
+
+    <div class="built-steps">
+      <div class="built-step">
+        <p class="step-label">Foundation</p>
+        <h3>32-year intellectual lineage</h3>
+        <p>Boyd, Deming, Drucker, TPS, Lean, Goldratt — operationally proven, not theoretically borrowed.</p>
+      </div>
+      <div class="built-step">
+        <p class="step-label">Method</p>
+        <h3>Wardley Mapping</h3>
+        <p>The session methodology uses Simon Wardley's competitive landscape mapping — open source, peer-reviewed, used by governments and global organizations.</p>
+      </div>
+      <div class="built-step">
+        <p class="step-label">Governance</p>
+        <h3>ArcKit + GitHub</h3>
+        <p>Every governance document is version-controlled and publicly accessible. The architecture evolves in the open.</p>
+      </div>
+      <div class="built-step">
+        <p class="step-label">Proof of concept</p>
+        <h3>OSU Startup Weekend, 2013</h3>
+        <p>The original concept won first place. Thirteen years of field work produced the protocol it needed to become.</p>
+      </div>
+    </div>
+
+    <a class="built-link" href="https://github.com/Akili-47/student-athlete-exchange" target="_blank">
+      View the full governance repository on GitHub →
+    </a>
+  </div>
+</div>
+
 <div class="origin">
   <div class="origin-inner">
     <h2>The origin</h2>
     <p>I played football at West Point and Oregon State. 
     I tried out for the San Francisco 49ers and got cut. 
-    After 18 years of football, the identity that defined 
-    everything was suddenly irrelevant.</p>
+    After 18 years of football, I did not retire — 
+    I evolved. The identity shifted. The skills did not disappear.</p>
     <p>I became a Ranger — The SeaBass, 1-Bravo, B. CO. 2/75, 
     2nd Battalion, 75th Ranger Regiment. I served in Afghanistan 
     and was part of Operation Red Wings, the recovery mission 
