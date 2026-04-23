@@ -176,14 +176,6 @@ chapter's SOBC. Missing cases block deployment.
   Chapter Lead identified, timeline to
   Session 1, dependencies named.
 
-> **Note on current SOBC state.** ARC-001-SOBC-v1.0
-> is truncated. The Strategic, Economic, and Commercial
-> cases are present; the Financial and Management cases
-> are pending. Chapter 001 cannot check Section D in full
-> until SOBC is completed to all five Green Book cases.
-> This footnote is removed when ARC-001-SOBC reaches
-> v1.1 with the missing cases.
-
 ---
 
 ## Section E — FERPA and Data Protection
