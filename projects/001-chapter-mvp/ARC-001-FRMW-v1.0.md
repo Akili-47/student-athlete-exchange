@@ -1,4 +1,4 @@
-# ARC-001-FRMW-v1.0 — The Exchange Protocol: Chapter Compliance Framework
+# ARC-001-FRMW-v1.0 — The Exchange Protocol: MEAC Chapter Compliance Instance
 
 **Status:** Draft  
 **Version:** 1.0  
@@ -12,203 +12,89 @@
 
 ## Purpose
 
-This is the compliance checklist that Principle 5 requires.
+This is chapter 001's signed compliance instance of
+the global Exchange Protocol Compliance Framework
+(ARC-000-FRMW-v1.0).
 
-Principle 5 — "The protocol governs, not the founder" —
-needs a concrete enforcement mechanism. This document
-is it. A chapter signs this checklist before recognition.
-A third party verifies compliance by reading it.
-No founder conversation is required.
+The framework authority, section structure, checklist
+items, and third-party verification procedure are all
+defined in ARC-000-FRMW. This document does not
+duplicate them. It records chapter-001 evidence and
+signatures against that framework.
 
-The checklist ties every chapter governance artifact
-to an external framework with named authority. External
-frameworks do the heavy lifting. The Exchange Protocol
-defines only what is specific to Exchange chapters.
-Everything else is inherited from published standards.
-
----
-
-## Framework Map
-
-Chapter governance documents implement external
-frameworks. The framework authority, not the protocol,
-defines what "done" looks like inside each case.
-
-| Chapter document | External framework | Authority | Where applied |
-|---|---|---|---|
-| ARC-001-SOBC | UK Government Green Book 5-Case Model | HM Treasury | Strategic, Economic, Commercial, Financial, Management cases |
-| ARC-001-RISK | HM Treasury Orange Book | HM Treasury | Likelihood × Impact scoring; thresholds 1–4 Low, 5–9 Medium, 10–16 High, 17–25 Critical |
-| ARC-001-REQ + ARC-000-DPIA | FERPA (20 U.S.C. § 1232g) | US Department of Education | Data subject rights, disclosure log, school official exception |
-| ARC-000-PRIN | Six Architecture Principles | The Exchange Protocol | Self-enforcing — principle-by-principle compliance matrix |
-| ARC-000-ADR | Nygard ADR format | Open standard | Context / Decision / Consequences |
-| ARC-000-METH | Wardley Mapping (CC BY-SA) | Simon Wardley / wardleymaps.com | Map syntax, evolution axis, value chain |
-
-Internal reference documents (non-framework):
-ARC-001-STKE (stakeholder analysis), ARC-000-WARD
-(protocol Wardley Map).
+Read this document alongside ARC-000-FRMW. Where the
+global framework asks a question, this document names
+the chapter-specific artifact that answers it.
 
 ---
 
-## Section A — Principle Compliance
+## Governing Framework
 
-Six items. One per principle. A chapter that cannot
-check all six is not an Exchange chapter.
+- **Framework authority:** ARC-000-FRMW-v1.0
+- **Chapter deployment:** MEAC MVP (chapter 001)
 
-- [ ] **P1 — User need anchors everything.**
-  Named user at the top of every value chain.
-  **Evidence:** session artifact for Session 1
-  showing named user and traced dependencies.
-
-- [ ] **P2 — Domain expertise governs quality.**
-  TAC has operated in the mapped domain
-  within the last five years.
-  **Evidence:** TAC credential document per NFR-002,
-  listing domain and dates of professional operation.
-
-- [ ] **P3 — The practitioner owns the work.**
-  Athletes hold the private payload key.
-  No institutional clause claims portfolio ownership.
-  **Evidence:** participation agreement per NFR-001;
-  dual-hash per ADR-002.
-
-- [ ] **P4 — The assumption delta is the value.**
-  ETU at session close documents research-vs-TAC
-  placement for every challenged component.
-  **Evidence:** signed SCQA ETU per FR-006 and ADR-003.
-
-- [ ] **P5 — The protocol governs, not the founder.**
-  This checklist signed by chapter roles below.
-  No founder approval sought or granted.
-  **Evidence:** signed FRMW committed to chapter
-  repository path.
-
-- [ ] **P6 — Open method, proprietary substrate.**
-  No chapter agreement grants rights to ECHO data.
-  **Evidence:** chapter–partner agreement clause
-  specifying ECHO substrate reservation.
+All section definitions and external framework
+mappings live in ARC-000-FRMW. This chapter instance
+inherits them by reference.
 
 ---
 
-## Section B — Requirements Compliance
+## Evidence Record
 
-Functional and non-functional requirements per
-ARC-001-REQ-v1.0.
+For each section of ARC-000-FRMW, chapter-001 evidence
+lives at the cited location.
 
-### Functional
+### Section A — Principle Compliance
 
-- [ ] **FR-000** — All participants read Wardley Mapping 101
-  and ARC-000-BRIEF before Session 1. TAC confirms at
-  session open.
-- [ ] **FR-001** — TAC pre-session canvas documented
-  before Phase 1 (named user, domain boundary,
-  known assumption traps).
-- [ ] **FR-002** — Phase 1 open capture visible in
-  session artifact prior to clustering.
-- [ ] **FR-003** — Phase 2 cluster pre-challenge and
-  post-challenge states documented with TAC notes.
-- [ ] **FR-004** — Phase 3 value chain traces every
-  component to the named user, removed components
-  noted.
-- [ ] **FR-005** — Phase 4 assumption delta recorded
-  per challenged component (research placement,
-  TAC placement, why the delta exists).
-- [ ] **FR-006** — SCQA session record co-signed by
-  Map Lead and TAC before session close, timestamped.
+| Principle | Evidence location |
+|---|---|
+| P1 — User need anchors everything | Session 1 artifact in chapter repository |
+| P2 — Domain expertise governs quality | TAC credential document, chapter records |
+| P3 — The practitioner owns the work | Participation agreement (NFR-001) + ADR-002 dual-hash design |
+| P4 — Assumption delta is the value | SCQA ETU per FR-006 and ADR-003 |
+| P5 — Protocol governs, not founder | This signed FRMW instance |
+| P6 — Open method, proprietary substrate | Chapter–partner agreement ECHO clause |
 
-### Non-Functional
+### Section B — Requirements Compliance
 
-- [ ] **NFR-001** — Participation agreement on file
-  for every athlete before Session 1.
-- [ ] **NFR-002** — TAC credential document on file
-  before first session.
-- [ ] **NFR-003** — Session artifacts committed to
-  version-controlled repository with timestamp
-  before the next session begins.
-- [ ] **NFR-004** — Chapter governance documents
-  in public repository; no meeting required
-  for third-party verification.
+- **Source document:** ARC-001-REQ-v1.0
+- **Evidence:** committed session artifacts at the
+  chapter repository path per NFR-003; TAC confirmation
+  of FR-000 prerequisites at every session open.
 
----
+### Section C — Risk Compliance
 
-## Section C — Risk Compliance (Orange Book)
+- **Source document:** ARC-001-RISK-v1.0
+- **Evidence:** residual risk ratings for R01 through
+  R07 accepted and recorded by Chapter Lead (signature
+  below). Orange Book scoring applied throughout.
 
-Per ARC-001-RISK-v1.0 and HM Treasury Orange Book.
+### Section D — Business Case Compliance
 
-- [ ] Chapter Lead has reviewed ARC-001-RISK in full.
-- [ ] Residual risk ratings for R01 through R07
-  accepted and recorded.
-- [ ] Any chapter-specific risks added to a local
-  risk register using Orange Book scoring
-  (Likelihood 1–5 × Impact 1–5; thresholds
-  1–4 Low, 5–9 Medium, 10–16 High, 17–25 Critical).
-- [ ] **R01 mitigation (Protocol dilution)** — no TAC,
-  no session. No session, no portfolio entry.
-  Confirmed in writing.
-- [ ] **R03 mitigation (Institutional IP capture)** —
-  per-institution legal review complete before
-  first university contract execution.
-- [ ] **R04 mitigation (NCAA compliance conflict)** —
-  SOBC framing (compliance solution, not benefit)
-  reviewed with institutional compliance officer.
-- [ ] **R05 mitigation (TAC quality degradation)** —
-  five-year TAC domain currency window enforced
-  at annual chapter review.
+- **Source document:** ARC-001-SOBC-v1.1
+- **Evidence:** all five Green Book cases present in
+  SOBC v1.1 (Strategic, Economic, Commercial, Financial,
+  Management). See chapter-specific notes below
+  regarding estimate status.
 
----
+### Section E — FERPA and Data Protection
 
-## Section D — Business Case Compliance (Green Book 5-Case)
-
-Per ARC-001-SOBC-v1.0 and UK Government Green Book.
-Each of the five cases must be present in the
-chapter's SOBC. Missing cases block deployment.
-
-- [ ] **Strategic Case.** Named problem, named user,
-  strategic position, origin and validation record.
-- [ ] **Economic Case.** Current-state cost,
-  Exchange benefit inventory, measurable outcomes
-  with targets.
-- [ ] **Commercial Case.** Revenue streams,
-  contract model, partner organization terms.
-- [ ] **Financial Case.** Cost structure,
-  cashflow impact on the institution,
-  funding source identified.
-- [ ] **Management Case.** Delivery plan,
-  Chapter Lead identified, timeline to
-  Session 1, dependencies named.
-
----
-
-## Section E — FERPA and Data Protection
-
-Per ARC-000-DPIA-v1.0 and FERPA (20 U.S.C. § 1232g).
-Chapter Lead confirms:
-
-- [ ] Institutional status determined — school official
-  exception under written agreement, or independent
-  program outside FERPA scope.
-- [ ] Participation agreement records lawful basis
-  (contract plus explicit consent for any disclosure
-  beyond the session).
-- [ ] Disclosure log active before Session 1; any
-  transmission of artifacts to institutional systems
-  or third parties recorded.
-- [ ] Data inventory confirms no biometric, health,
-  financial, academic-grade, or disciplinary data
-  collected.
-- [ ] Athlete private-key custody guidance delivered
-  during onboarding; key loss consequences understood.
-- [ ] **R-03 (Bitcoin immutability vs. GDPR erasure)** —
-  external legal review complete before any
-  EU-resident athlete onboards.
+- **Source document:** ARC-000-DPIA-v1.0
+- **Evidence:** institutional status determined per
+  chapter–institution agreement; participation
+  agreement lawful basis recorded (contract plus
+  explicit consent); disclosure log active before
+  Session 1. See chapter-specific notes below
+  regarding R-03 legal review.
 
 ---
 
 ## Section F — Governance Sign-off
 
-A chapter is recognized when this checklist is signed
-by three roles. Signatures attest to review, not to
-approval by the founder. Principle 5 forbids founder
-approval gates.
+Chapter 001 adopts ARC-000-FRMW by the three signatures
+below. Per Principle 5, no founder approval is sought
+or granted. The commit hash of this signed instance is
+the compliance record.
 
 | Role | Name | Date | Attestation |
 |---|---|---|---|
@@ -216,44 +102,23 @@ approval gates.
 | Map Lead | _____ | _____ | Session protocol compliance (FR-001 through FR-006) in place. Artifacts will be committed per NFR-003. |
 | TAC (at least one) | _____ | _____ | Domain currency confirmed per NFR-002. Challenge posture per Principle 4 and Followership Doctrine (AC 72029, 2023) understood and accepted. |
 
-Sign-off is recorded by committing the completed
-checklist to the chapter's repository path. The commit
-hash is the compliance record. No external approval
-authority exists.
-
 ---
 
-## How a Third Party Verifies Compliance
+## Chapter-Specific Notes
 
-No founder call. No meeting. Three steps.
-
-1. Read the completed FRMW at the chapter's
-   repository path.
-2. Confirm each referenced artifact exists at
-   the cited location and version.
-3. Confirm commit timestamps precede any claimed
-   session date.
-
-This is Principle 5 operating as designed.
-
----
-
-## Source Documents
-
-- ARC-000-PRIN-v1.0 — six non-negotiable principles
-- ARC-000-ADR-v1.0 — ADR-001 (Bitcoin anchoring),
-  ADR-002 (dual-hash), ADR-003 (SCQA ETU)
-- ARC-000-DPIA-v1.0 — data protection risks and
-  FERPA/GDPR mapping
-- ARC-001-REQ-v1.0 — functional and non-functional
-  requirements
-- ARC-001-RISK-v1.0 — Orange Book risk register
-- ARC-001-SOBC-v1.0 — Green Book 5-case business case
-- BMA Workup (SAX 12.1.21) — TAC role as domain
-  challenger; curriculum evidence base
-- British Army Followership Doctrine Note AC 72029
-  (2023) — responsibility to challenge as the
-  doctrinal basis of the TAC posture
+- **SOBC dollar figures are estimates.** ARC-001-SOBC-v1.1
+  figures across the Economic, Commercial, and Financial
+  Cases are estimates pending institutional finance and
+  legal review. Section D cannot move from Draft to
+  Approved until that review is complete.
+- **DPIA R-03 legal review pending.** ARC-000-DPIA Risk
+  R-03 (Bitcoin-anchored immutability vs. GDPR Article 17
+  erasure rights) is flagged for external legal review.
+  Chapter 001 does not enrol EU-resident athletes until
+  that review is complete.
+- **Chapter–institution agreement.** Required before any
+  institutional ingestion of session artifacts per
+  ARC-000-DPIA Risk R-05.
 
 ---
 
@@ -261,7 +126,7 @@ This is Principle 5 operating as designed.
 
 | Version | Date | Change |
 |---|---|---|
-| 1.0 | April 2026 | Initial release — MEAC chapter 001 compliance checklist |
+| 1.0 | April 2026 | Initial release — chapter 001 MEAC MVP compliance instance. Refactored from self-contained framework to signed instance of ARC-000-FRMW-v1.0; framework content removed, chapter-specific evidence and sign-off retained. |
 
 ---
 
