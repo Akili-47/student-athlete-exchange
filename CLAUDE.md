@@ -28,6 +28,8 @@ Public repository: `github.com/Akili-47/student-athlete-exchange`
 | FRMW | Framework / Compliance Checklist |
 | DPIA | Data Protection Impact Assessment |
 | ADR | Architecture Decision Record |
+| METH | Methodology document |
+| PLAN | Deployment or operational plan |
 
 ---
 
