@@ -50,9 +50,17 @@ with your work reviewed by someone who lives in it.
 
 ## What you get back
 
+- **A method you keep for life.** Wardley Mapping is
+  a way of evaluating any industry, any decision, any
+  organization. You learn it by doing it — session by
+  session. It is not locked to a platform, not tied to
+  a subscription, not scoped to your years in college.
+  It is yours after graduation, at every job, for the
+  rest of your career.
 - A portfolio of maps — eight to sixteen of them by
-  the time you graduate. Each signed by the domain
-  expert who challenged you on it.
+  the time you graduate, each signed by the domain
+  expert who challenged you on it. These are the
+  visible evidence that you acquired the method.
 - A professional reference network. The people who
   challenge your maps are people who can hire you,
   refer you, or vouch for you later.
@@ -125,7 +133,9 @@ Exchange is built around that fact.
   it easier for you to get yourself hired.
 - **Not an NIL deal.** There is no compensation
   attached. No name, image, or likeness rights are
-  exchanged.
+  exchanged. NIL addresses income during your years
+  of eligibility. The Exchange gives you an analytical
+  method that works for decades after eligibility ends.
 
 If any of those are what you are looking for, this is
 the wrong program. Say so — we will point you to the
