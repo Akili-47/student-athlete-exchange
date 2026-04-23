@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain language.** The decisions that shape the Exchange Protocol, recorded as they are made. Each entry names the problem, the choice, and the consequences. Currently logs three: Bitcoin anchoring for timestamp durability, dual-hash attribution so athletes own their work, and SCQA format for session records. New decisions append to this log; superseded decisions stay in place with a forward pointer.
+
 ## Purpose
 
 This document records the architecture decisions
