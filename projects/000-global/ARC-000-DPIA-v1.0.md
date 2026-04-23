@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain language.** For university legal teams and compliance officers. Documents what athlete data the Exchange collects (cryptographic hashes and session artifacts — no grades, health, or financial data), how FERPA and GDPR-adjacent rights are handled, and six identified risks with mitigations. One risk — blockchain-anchored timestamps vs. the right to erasure — is flagged for external legal review before any EU-resident athlete enrolls.
+
 ## Purpose
 
 This DPIA assesses the data protection risks created

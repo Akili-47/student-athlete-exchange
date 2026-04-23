@@ -8,6 +8,8 @@
 
 ---
 
+> **In plain language.** The six non-negotiable rules every Exchange chapter follows. If a chapter cannot meet all six, it is not an Exchange chapter — no matter who runs it. These principles exist so the protocol scales without requiring the founder in the room.
+
 ## Purpose
 
 These six principles govern every Exchange chapter.

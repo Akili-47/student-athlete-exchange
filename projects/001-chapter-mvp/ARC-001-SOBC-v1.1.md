@@ -10,6 +10,8 @@
 
 ---
 
+> **In plain language.** The business case for establishing an Exchange chapter at a MEAC institution. Written for athletic directors, compliance officers, and university legal departments — not investors. Structured as the five cases of the UK Government Green Book method: Strategic, Economic, Commercial, Financial, Management. All dollar figures are estimates pending institutional finance and legal review. Do not cite them as negotiated terms.
+
 ## Purpose
 
 This document makes the case for The Exchange Protocol

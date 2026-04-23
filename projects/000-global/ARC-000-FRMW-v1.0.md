@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain language.** The protocol-wide compliance checklist. Every chapter signs a local instance of this document to confirm it meets the six principles, the session requirements, the risk posture, the business case structure, and the data protection rules. A third party verifies any chapter's compliance by reading its signed instance — no meeting required, no founder approval needed.
+
 ## Purpose
 
 This is the authoritative compliance framework for

@@ -10,6 +10,8 @@
 
 ---
 
+> **In plain language.** Chapter 001's signed compliance record confirming it follows the Exchange Protocol. Short by design — the full framework lives in ARC-000-FRMW. This document names the chapter-specific evidence (which MEAC chapter documents satisfy each requirement) and collects three signatures: Chapter Lead, Map Lead, and TAC. The commit hash of the signed file is the compliance record.
+
 ## Purpose
 
 This is chapter 001's signed compliance instance of

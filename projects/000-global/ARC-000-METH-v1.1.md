@@ -7,6 +7,8 @@
 
 ---
 
+> **In plain language.** Explains what Wardley Mapping is, why it works, and how athletes learn it. The method itself — not the maps athletes produce — is the skill they keep for life. Read this first if you want to understand why the Exchange does what it does.
+
 ## Purpose
 
 This document explains the analytical method at the center of The Exchange, why it works, and how athletes learn it. It is written for athletic directors, university administrators, and domain experts. 
