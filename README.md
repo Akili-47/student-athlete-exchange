@@ -105,6 +105,7 @@ student-athlete-exchange/
 │   │   ├── ARC-000-METH-v1.1.md      # Mapping methodology and value proposition
 │   │   ├── ARC-000-ADR-v1.0.md       # Architecture decisions (Bitcoin, dual-hash, SCQA)
 │   │   ├── ARC-000-BRIEF-v1.0.md     # Athlete briefing (plain-language pre-session)
+│   │   ├── ARC-000-BRIEF-TAC-v1.0.md # TAC briefing (for practitioners considering the challenger role)
 │   │   ├── ARC-000-DPIA-v1.0.md      # Data protection (FERPA + GDPR-adjacent)
 │   │   ├── ARC-000-FRMW-v1.0.md      # Compliance framework (chapter template)
 │   │   └── wardley-maps/
@@ -135,6 +136,7 @@ The full governance architecture is publicly verifiable. Each document is linked
 | [Mapping Methodology](projects/000-global/ARC-000-METH-v1.1.md) | Why Wardley Mapping is the value proposition |
 | [Architecture Decision Record](projects/000-global/ARC-000-ADR-v1.0.md) | Bitcoin anchoring, dual-hash attribution, SCQA ETU format |
 | [Athlete Briefing](projects/000-global/ARC-000-BRIEF-v1.0.md) | Plain-language guide athletes read before Session 1 |
+| [TAC Briefing](projects/000-global/ARC-000-BRIEF-TAC-v1.0.md) | Plain-language guide for practitioners considering the TAC role |
 | [Data Protection Impact Assessment](projects/000-global/ARC-000-DPIA-v1.0.md) | FERPA and GDPR-adjacent protections |
 | [Compliance Framework](projects/000-global/ARC-000-FRMW-v1.0.md) | Protocol-wide compliance checklist (chapter template) |
 | [Stakeholder Analysis](projects/001-chapter-mvp/ARC-001-STKE-v1.0.md) | Athletes, domain experts (TACs), universities, and partner organizations |
