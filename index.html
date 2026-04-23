@@ -468,6 +468,78 @@
   footer a { color: #666; text-decoration: none; }
   footer a:hover { color: #1a1a1a; }
 
+  .roles {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 4rem 2rem;
+  }
+
+  .roles-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .roles h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+
+  .roles-intro {
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    color: #ccc;
+    margin-bottom: 2.5rem;
+    max-width: 640px;
+  }
+
+  .role-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .role-card {
+    background: #2a2a2a;
+    padding: 1.8rem 1.5rem;
+    border-left: 3px solid #fff;
+  }
+
+  .role-card h3 {
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 0.6rem;
+    color: #fff;
+  }
+
+  .role-card p {
+    font-family: Arial, sans-serif;
+    font-size: 0.88rem;
+    color: #bbb;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .role-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #444;
+  }
+
+  .role-link:last-child {
+    border-bottom: none;
+  }
+
+  .role-link:hover {
+    color: #ccc;
+  }
+
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8rem; }
     .stats { gap: 2rem; }
@@ -658,6 +730,38 @@
 </section>
 
 <hr class="divider">
+
+<div class="roles">
+  <div class="roles-inner">
+    <h2>Start here</h2>
+    <p class="roles-intro">Four roles touch the Exchange. Each has a different set of documents. Read the ones for your role first — the full governance library is below.</p>
+    <div class="role-cards">
+      <div class="role-card">
+        <h3>Athletes</h3>
+        <p>One document. Read it in fifteen minutes before your first session.</p>
+        <a class="role-link" href="projects/000-global/ARC-000-BRIEF-v1.0.md">Athlete Briefing →</a>
+      </div>
+      <div class="role-card">
+        <h3>Administrators</h3>
+        <p>Athletic directors, career services, sponsors. The business case and what a chapter signs.</p>
+        <a class="role-link" href="projects/001-chapter-mvp/ARC-001-SOBC-v1.1.md">Business Case (Green Book 5-Case) →</a>
+        <a class="role-link" href="projects/001-chapter-mvp/ARC-001-FRMW-v1.0.md">Chapter Compliance Instance →</a>
+      </div>
+      <div class="role-card">
+        <h3>Compliance Officers</h3>
+        <p>University legal, FERPA officers. Data protection posture and the compliance framework.</p>
+        <a class="role-link" href="projects/000-global/ARC-000-DPIA-v1.0.md">Data Protection Impact Assessment →</a>
+        <a class="role-link" href="projects/000-global/ARC-000-FRMW-v1.0.md">Compliance Framework →</a>
+      </div>
+      <div class="role-card">
+        <h3>TACs</h3>
+        <p>Domain practitioners who challenge athlete placements. What you are signing up to do.</p>
+        <a class="role-link" href="projects/000-global/ARC-000-PRIN-v1.0.md">Architecture Principles →</a>
+        <a class="role-link" href="projects/001-chapter-mvp/ARC-001-REQ-v1.0.md">Session Requirements →</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="docs">
   <div class="docs-inner">
