@@ -30,6 +30,7 @@ Public repository: `github.com/Akili-47/student-athlete-exchange`
 | ADR | Architecture Decision Record |
 | METH | Methodology document |
 | PLAN | Deployment or operational plan |
+| BRIEF | Participant briefing |
 
 ---
 
