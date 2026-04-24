@@ -41,7 +41,7 @@ The protocol cannot govern itself if its own documents are missing.
 | Document | Description | Dependency |
 |---|---|---|
 | ARC-000-FRMW-v1.0 | Compliance checklist. TAC credential template. Chapter recognition criteria. | None |
-| ARC-001-DPIA-v1.0 | Data protection impact assessment. Legal basis for dual-hash athlete ownership boundary. Required before university contract execution. | ARC-000-FRMW |
+| ARC-000-DPIA-v1.0 | Data protection impact assessment. Legal basis for dual-hash athlete ownership boundary. Required before university contract execution. | ARC-000-FRMW |
 | ADR-004-v1.0 | Origin lineage decision record. Foot in the Door (2012) → SAX (2013) → GP Monticello (2024) → Exchange (2026). Establishes IP provenance. | None |
 
 **Gate:** All three documents committed to repository before Phase 1 begins.
@@ -114,8 +114,8 @@ The POC session produces the evidence that closes the contract.
    Reference this repository for due diligence.
    Do not pitch the contract. Pitch the session.
 
-2. **Compliance review** — institutional legal reviews ARC-001-DPIA-v1.0
-   and ARC-001-SOBC-v1.0 independently.
+2. **Compliance review** — institutional legal reviews ARC-000-DPIA-v1.0
+   and ARC-001-SOBC-v1.1 independently.
    No founder explanation required — that is the test.
 
 3. **Agreement** — one of two paths:
@@ -123,13 +123,13 @@ The POC session produces the evidence that closes the contract.
      decide on contract after. No budget approval required at this stage.
    - **University contract:** $15,000–35,000 annually.
      Requires explicit language preserving athlete portfolio ownership
-     (see ARC-001-DPIA-v1.0 contract template).
+     (see ARC-000-DPIA-v1.0 contract template).
 
 **Deliverables:**
 
 | Item | Description |
 |---|---|
-| Pitch deck or one-pager | Derived from ARC-001-SOBC-v1.0 and ARC-001-STKE-v1.0. Points to repository for governance documentation. |
+| Pitch deck or one-pager | Derived from ARC-001-SOBC-v1.1 and ARC-001-STKE-v1.0. Points to repository for governance documentation. |
 | Signed POC letter of intent or university contract | Date, institution name, point of contact, session scope. |
 | Athlete cohort confirmed | Minimum four athletes. Yellow participants (no domain experience) welcome. |
 
@@ -237,12 +237,12 @@ committed before the contract conversation is opened (if on POC path).
 | Document | Status | Purpose |
 |---|---|---|
 | ARC-000-PRIN-v1.0 | Approved | Six governing principles |
-| ARC-000-FRMW-v1.0 | **Not yet written** | Compliance checklist and TAC credential template |
-| ARC-001-SOBC-v1.0 | Approved | Strategic and economic case for MEAC pitch |
+| ARC-000-FRMW-v1.0 | Draft | Compliance checklist and TAC credential template |
+| ARC-001-SOBC-v1.1 | Draft | Strategic, Economic, Commercial, Financial, Management cases for MEAC pitch |
 | ARC-001-REQ-v1.0 | Approved | Session compliance requirements |
 | ARC-001-RISK-v1.0 | Approved | Risk register with mitigations |
 | ARC-001-STKE-v1.0 | Approved | Stakeholder analysis for MEAC context |
-| ARC-001-DPIA-v1.0 | **Not yet written** | Athlete data ownership legal basis |
+| ARC-000-DPIA-v1.0 | Draft | Athlete data ownership legal basis (FERPA + GDPR-adjacent) |
 | ADR-004-v1.0 | **Not yet written** | Origin lineage decision record |
 
 ---

@@ -167,7 +167,7 @@ NCAA compliance uncertainty. The Exchange
 positions portfolio entries as professional
 development output — not NIL deals. This
 distinction is documented in the SOBC
-(ARC-001-SOBC-v1.0.md) and must be reviewed
+(ARC-001-SOBC-v1.1.md) and must be reviewed
 by institutional legal counsel before deployment.
 
 **HBCU-specific note:**

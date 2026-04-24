@@ -1,9 +1,11 @@
 # ARC-000-METH-v1.1 — Mapping Methodology and Learning Ecosystem
 
-**Document ID:** ARC-000-METH-v1.1  
-**Status:** Active  
-**Scope:** Global — applies to all Exchange chapters  
+**Status:** Approved  
+**Version:** 1.1  
+**Date:** April 2026  
 **Owner:** Akili King, Lead Researcher  
+**Repository:** student-athlete-exchange  
+**Framework:** Wardley Mapping (CC BY-SA 4.0); ArcKit governance toolkit
 
 ---
 
@@ -126,3 +128,8 @@ No specialist software is required. Any text editor opens it. Any browser-based 
 The Exchange Protocol is MIT Licensed.  
 Session method: Creative Commons — Wardley Mapping by Simon Wardley (CC BY-SA 4.0).  
 Maps contributed to the Wardley Map Repository are licensed under CC BY-SA 4.0.
+
+---
+
+*This document is part of The Exchange Protocol governance architecture.
+Built with ArcKit. Stored in version control. Publicly verifiable.*
