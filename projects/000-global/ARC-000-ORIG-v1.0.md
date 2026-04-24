@@ -73,10 +73,14 @@ The psychological engine of the Exchange Protocol is driven by Self-Determinatio
 *   **Authentic Leadership/Followership:** Research demonstrates that authentic leadership and authentic followership (enacting one's true self) coproduce the satisfaction of these basic needs, leading to higher autonomous work motivation and performance [12]. The TAC is trained to foster this authentic functioning.
 *   **Personal Application:** The protocol operationalizes SDT at the individual level. By forcing athletes to execute, capture, hone, and optimize their own experiences, the protocol builds the "Personal Human Infrastructure" required for resilience and intrinsic motivation [13].
 
-### Wardley Doctrine: Pioneers, Settlers, Town Planners (PST)
+### Wardley Doctrine: The "Why of Movement"
 
-The Exchange Protocol operationalizes Simon Wardley's value chain mapping and evolution models to create a structured practice environment for athletes [18].
-*   **The PST Rotation Model:** Traditional organizations structure by type (IT, Finance, Marketing). Wardley argues for structuring by evolution: Pioneers (explore the unknown), Settlers (build the product), Town Planners (industrialize the utility). In the Exchange, athletes practice leading and following *in context* by rotating through these roles across different sessions. In one session, they are the Pioneer mapping an uncharted domain; in the next, they are the Town Planner strictly enforcing the SCQA compliance of the session record.
+The Exchange Protocol operationalizes Simon Wardley's value chain mapping and evolution models to create a structured practice environment for athletes [18]. The fundamental connection between Wardley's work and the Exchange Protocol is the shared origin problem: operating without a map. 
+
+Wardley's methodology was born from his experience as a CEO who realized he was making strategic decisions without understanding the landscape—the equivalent of playing chess by pressing buttons without seeing the board. He recognized that traditional business tools (SWOT, 2x2s) provide a story, but lack the essential elements of a map: an anchor, position, and movement. They cannot answer the "why of movement" (why make this move over that one). 
+
+The Exchange Protocol addresses this exact problem for the transitioning athlete. When an athlete leaves sport, they are entering a landscape they have never mapped. The protocol provides the board *before* the game starts.
+*   **The PST Rotation Model:** Traditional organizations structure by type (IT, Finance, Marketing). Wardley argues for structuring by evolution: Pioneers (explore the unknown), Settlers (build the product), Town Planners (industrialize the utility). In the Exchange, athletes practice leading and following *in context* by rotating through these cognitive roles across different sessions. In one session, they are the Pioneer mapping an uncharted domain; in the next, they are the Town Planner strictly enforcing the SCQA compliance of the session record.
 *   **Doctrine vs. Gameplay:** The protocol distinguishes between universally applicable principles (Doctrine) and context-specific strategic moves (Gameplay). The Exchange Protocol itself is Doctrine. The output of an Exchange session—the Wardley Map corrected by the TAC—is the discovery of Gameplay. The athlete graduates with a documented understanding of how to play the game in their chosen field.
 
 ### Cynefin Anthro-Complexity: Humans Are Not Ants
