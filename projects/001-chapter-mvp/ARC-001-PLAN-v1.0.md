@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain language.** The sequenced plan for getting the first MEAC chapter from nothing to a signed, dual-hashed portfolio entry. The MVP success condition is narrow by design: one university, one TAC, one partner organization, one compliant session, one portfolio entry. That first output is the evidence that closes every subsequent conversation.
+
 ## Purpose
 
 This document defines the sequenced plan for deploying the first

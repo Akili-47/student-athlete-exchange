@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain language.** What a compliant Exchange chapter must actually do. Seven functional requirements describe what happens in every session, phase by phase. Four non-functional requirements cover athlete ownership, TAC domain currency, version-controlled artifacts, and third-party verifiability. A chapter meets them or it does not — no waiver, no exception.
+
 ## Purpose
 
 This document defines what a compliant Exchange chapter

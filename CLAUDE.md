@@ -28,6 +28,9 @@ Public repository: `github.com/Akili-47/student-athlete-exchange`
 | FRMW | Framework / Compliance Checklist |
 | DPIA | Data Protection Impact Assessment |
 | ADR | Architecture Decision Record |
+| METH | Methodology document |
+| PLAN | Deployment or operational plan |
+| BRIEF | Participant briefing. Athlete-facing by default (`ARC-{id}-BRIEF`); other audiences take a suffix (`ARC-{id}-BRIEF-TAC`, `ARC-{id}-BRIEF-ADMIN`) |
 
 ---
 

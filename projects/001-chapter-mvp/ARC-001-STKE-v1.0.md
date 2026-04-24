@@ -9,6 +9,8 @@
 
 ---
 
+> **In plain language.** Every actor who touches the MEAC MVP — athletes, TACs, universities, partner organizations, governance — with each one's primary goal, core driver, measurable outcome, and point of tension. Read this if you want to understand the full operating environment before diving into any single role's documents.
+
 ## Purpose
 
 This document maps every actor in The Exchange ecosystem

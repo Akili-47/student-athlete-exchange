@@ -10,6 +10,8 @@
 
 ---
 
+> **In plain language.** Seven risks to the MEAC chapter deployment, each rated (Likelihood × Impact using HM Treasury's Orange Book scoring) and mitigated. Top risks include protocol dilution (the name used without the TAC), founder dependency, and institutional IP capture. Any risk without a documented mitigation is an assumption — this register converts assumptions into managed decisions.
+
 ## Purpose
 
 This register documents every material risk to The Exchange

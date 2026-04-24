@@ -61,7 +61,7 @@ Here is the minimum viable path to running your first session:
 
 | Step | What you need | Why it matters |
 |---|---|---|
-| **1. Legal Clearance** | Have your compliance officer review the [Business Case](projects/001-chapter-mvp/ARC-001-SOBC-v1.0.md). | Confirms the output is professional development, not an NIL deal, clearing the path for athletes to participate safely. |
+| **1. Legal Clearance** | Have your compliance officer review the [Business Case](projects/001-chapter-mvp/ARC-001-SOBC-v1.1.md) and [Data Protection Impact Assessment](projects/000-global/ARC-000-DPIA-v1.0.md). | Confirms the output is professional development, not an NIL deal, and addresses FERPA + GDPR-adjacent rights — clearing the path for athletes to participate safely. |
 | **2. Find a TAC** | Identify one domain expert (TAC) who has operated at a professional level in a target industry within the last five years. | The TAC is the challenger. Without someone who knows what reality looks like in that industry, the session is just an academic exercise. |
 | **3. Find a Partner** | Identify one real organization willing to have their competitive landscape mapped. | The athletes need a real target. The partner organization receives the final map as the deliverable. |
 | **4. Run the Session** | Four athletes, one TAC, one partner target. The athletes build the map; the TAC challenges it. | This is the proof of concept. The session produces the first verifiable portfolio entry. |
@@ -73,11 +73,13 @@ The full, detailed deployment sequence — including the exact compliance gates 
 
 ## The Methodology: Wardley Mapping
 
-The core analytical tool used in The Exchange is **Wardley Mapping** — a method for understanding the competitive landscape of an industry, anticipating how it will evolve, and identifying where to act.
+**The map is not the product. The method is.**
 
-By mapping real organizations, athletes learn to see the battlefield the way executives do. They learn to separate what is actually happening from what research reports claim.
+Wardley Mapping is a structured way of evaluating any industry — how value moves from raw components to the end user, what is rare or common, what is changing fast or stable, and where the real leverage is. Athletes learn it by doing it, session after session, under challenge from a domain expert.
 
-The full methodology document — including how maps are built, how they are verified, and how they connect to the wider ecosystem — is here: [ARC-000-METH-v1.0 — Mapping Methodology and External Connections](projects/000-global/ARC-000-METH-v1.0.md)
+What an athlete carries after graduation is not the portfolio. It is the method. Wardley Mapping is Creative Commons licensed and platform-independent — it works at any employer, in any industry, for as long as the athlete keeps using it. Unlike NIL (which addresses income during eligibility) or career services (which addresses resume formatting), the method compounds for decades after eligibility ends.
+
+The full methodology document — including the five dimensions of the value proposition, the learning ecosystem, and how maps connect to the wider mapping community — is here: [ARC-000-METH-v1.1 — Mapping Methodology](projects/000-global/ARC-000-METH-v1.1.md).
 
 ### The Foundation: swardleymaps.com
 
@@ -100,15 +102,26 @@ student-athlete-exchange/
 ├── projects/
 │   ├── 000-global/
 │   │   ├── ARC-000-PRIN-v1.0.md      # Six non-negotiable protocol rules
-│   │   └── ARC-000-METH-v1.0.md      # Mapping methodology — Wardleymaps.ai and Wardley Map Repository connections
+│   │   ├── ARC-000-METH-v1.1.md      # Mapping methodology and value proposition
+│   │   ├── ARC-000-ADR-v1.0.md       # Architecture decisions (Bitcoin, dual-hash, SCQA)
+│   │   ├── ARC-000-BRIEF-v1.0.md     # Athlete briefing (plain-language pre-session)
+│   │   ├── ARC-000-BRIEF-TAC-v1.0.md # TAC briefing (for practitioners considering the challenger role)
+│   │   ├── ARC-000-BRIEF-ADMIN-v1.0.md # Administrator briefing (for ADs, career services, sponsors)
+│   │   ├── ARC-000-DPIA-v1.0.md      # Data protection (FERPA + GDPR-adjacent)
+│   │   ├── ARC-000-FRMW-v1.0.md      # Compliance framework (chapter template)
+│   │   └── wardley-maps/
+│   │       └── ARC-000-WARD-v1.0.md  # Protocol Wardley map
 │   └── 001-chapter-mvp/
 │       ├── ARC-001-STKE-v1.0.md      # Stakeholder analysis — athletes, TACs, universities, partners
-│       ├── ARC-001-RISK-v1.0.md      # Risk register — seven risks, rated and mitigated
-│       ├── ARC-001-SOBC-v1.0.md      # Business case — five-case model for university engagement
+│       ├── ARC-001-RISK-v1.0.md      # Risk register — seven risks, rated and mitigated (Orange Book)
+│       ├── ARC-001-SOBC-v1.1.md      # Business case — Green Book 5-Case model
 │       ├── ARC-001-REQ-v1.0.md       # Chapter requirements — what a compliant chapter must do
-│       └── ARC-001-PLAN-v1.0.md      # MVP deployment plan — six phases, MEAC conference
+│       ├── ARC-001-FRMW-v1.0.md      # MEAC chapter's signed compliance instance
+│       └── ARC-001-PLAN-v1.0.md      # MVP deployment plan — MEAC conference
+├── context/                           # Source documents that informed the protocol
 ├── CLAUDE.md                          # Instructions for Claude Code (AI assistant)
-├── index.html                         # Public-facing website for The Exchange
+├── index.html                         # Public-facing website (GitHub Pages)
+├── LICENSE                            # MIT license
 └── README.md                          # This file
 ```
 
@@ -121,12 +134,19 @@ The full governance architecture is publicly verifiable. Each document is linked
 | Document | What it covers |
 |---|---|
 | [Architecture Principles](projects/000-global/ARC-000-PRIN-v1.0.md) | Six non-negotiable rules the protocol runs on |
-| [Mapping Methodology](projects/000-global/ARC-000-METH-v1.0.md) | How maps are built, verified, and connected to Wardleymaps.ai and the Wardley Map Repository |
+| [Mapping Methodology](projects/000-global/ARC-000-METH-v1.1.md) | Why Wardley Mapping is the value proposition |
+| [Architecture Decision Record](projects/000-global/ARC-000-ADR-v1.0.md) | Bitcoin anchoring, dual-hash attribution, SCQA ETU format |
+| [Athlete Briefing](projects/000-global/ARC-000-BRIEF-v1.0.md) | Plain-language guide athletes read before Session 1 |
+| [TAC Briefing](projects/000-global/ARC-000-BRIEF-TAC-v1.0.md) | Plain-language guide for practitioners considering the TAC role |
+| [Administrator Briefing](projects/000-global/ARC-000-BRIEF-ADMIN-v1.0.md) | One-page brief for athletic directors, career services, and sponsors |
+| [Data Protection Impact Assessment](projects/000-global/ARC-000-DPIA-v1.0.md) | FERPA and GDPR-adjacent protections |
+| [Compliance Framework](projects/000-global/ARC-000-FRMW-v1.0.md) | Protocol-wide compliance checklist (chapter template) |
 | [Stakeholder Analysis](projects/001-chapter-mvp/ARC-001-STKE-v1.0.md) | Athletes, domain experts (TACs), universities, and partner organizations |
-| [Risk Register](projects/001-chapter-mvp/ARC-001-RISK-v1.0.md) | Seven risks, each rated and mitigated |
-| [Business Case](projects/001-chapter-mvp/ARC-001-SOBC-v1.0.md) | Five-case model for university engagement |
+| [Risk Register](projects/001-chapter-mvp/ARC-001-RISK-v1.0.md) | Seven risks, each rated and mitigated (Orange Book) |
+| [Business Case](projects/001-chapter-mvp/ARC-001-SOBC-v1.1.md) | Green Book 5-Case model for MEAC chapter engagement |
 | [Chapter Requirements](projects/001-chapter-mvp/ARC-001-REQ-v1.0.md) | What a compliant chapter must do |
-| [MVP Deployment Plan](projects/001-chapter-mvp/ARC-001-PLAN-v1.0.md) | Six phases, MEAC conference |
+| [MEAC Compliance Instance](projects/001-chapter-mvp/ARC-001-FRMW-v1.0.md) | Chapter 001's signed compliance record |
+| [MVP Deployment Plan](projects/001-chapter-mvp/ARC-001-PLAN-v1.0.md) | Sequenced plan for the first MEAC session |
 
 ---
 

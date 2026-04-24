@@ -7,6 +7,8 @@
 
 ---
 
+> **In plain language.** Explains what Wardley Mapping is, why it works, and how athletes learn it. The method itself — not the maps athletes produce — is the skill they keep for life. Read this first if you want to understand why the Exchange does what it does.
+
 ## Purpose
 
 This document explains the analytical method at the center of The Exchange, why it works, and how athletes learn it. It is written for athletic directors, university administrators, and domain experts. 
@@ -24,6 +26,30 @@ A Wardley Map is a visual picture of how an industry actually works — not how 
 When an athlete maps a real organization with a domain expert (the TAC), they are not doing a theoretical exercise. They are producing a picture of where that organization sits in its competitive landscape. The TAC challenges every placement. If the athlete's reasoning does not hold up against the TAC's operational experience, the map changes. 
 
 The result is a map that reflects reality, not assumptions. The gap between what the athlete assumed and what the TAC proved is the learning artifact.
+
+---
+
+## Why Wardley Mapping Is the Value Proposition
+
+The map is not the product. The method is.
+
+A map is the visible record that the method was applied. What the athlete acquires — and keeps — is the method itself: a structured way of evaluating any industry, any decision, any organization, for the rest of their career.
+
+This is what distinguishes the Exchange from every other program in college athletics. NIL addresses income during enrollment. Career services addresses resume formatting. Life-skills programs address personal development. None of them leave the athlete with an analytical method they carry forever.
+
+Wardley Mapping gives the athlete five things no other part of the protocol can produce:
+
+**1. A transferable method they keep forever.** Wardley Mapping is Creative Commons licensed (CC BY-SA 4.0). An athlete who learns it at one institution applies it at any employer, any industry, any decade. Nothing to re-license. Nothing locked to a platform.
+
+**2. User-anchored reasoning, enforced structurally.** Every map starts with a named user. Every component must trace to that user or it is removed. An athlete who has done this sixteen times stops thinking in abstractions — "the industry," "the market" — and starts thinking in value chains.
+
+**3. Evolution literacy.** The genesis → custom → product → commodity axis teaches the athlete to see where value is *moving*, not just where it sits. Reading industry dynamics — what is about to commoditize, where the open-source attack is coming, which components are pre-product — is a skill most MBA graduates do not have.
+
+**4. AI-resistance via the assumption delta.** An LLM can draft a passable map in seconds. What it cannot do is tell you that a component the research places in "product" is actually still "custom" inside a real operating company — because public information has not caught up to operational reality. The TAC correction against that reality is the AI-resistant signal.
+
+**5. Shared vocabulary with practitioners.** Without the map, TAC feedback is unstructured — "that is not how it works." With the map, feedback is localizable: "that component is in product, not commodity, because [operational reason]." The map makes challenge precise.
+
+The portfolio is evidence the method was acquired. The method is what compounds. That is the Exchange's value proposition, and it operates on a time horizon that goes decades beyond the NIL window.
 
 ---
 
