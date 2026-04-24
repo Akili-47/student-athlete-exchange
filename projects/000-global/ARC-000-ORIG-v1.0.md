@@ -73,6 +73,12 @@ The psychological engine of the Exchange Protocol is driven by Self-Determinatio
 *   **Authentic Leadership/Followership:** Research demonstrates that authentic leadership and authentic followership (enacting one's true self) coproduce the satisfaction of these basic needs, leading to higher autonomous work motivation and performance [12]. The TAC is trained to foster this authentic functioning.
 *   **Personal Application:** The protocol operationalizes SDT at the individual level. By forcing athletes to execute, capture, hone, and optimize their own experiences, the protocol builds the "Personal Human Infrastructure" required for resilience and intrinsic motivation [13].
 
+### Cynefin Anthro-Complexity: Humans Are Not Ants
+
+The Exchange Protocol rejects the traditional engineering metaphor of athlete development—where the athlete is treated as a machine to be programmed or an algorithm to be optimized. This rejection is grounded in the Cynefin framework's concept of Anthro-complexity [17].
+*   **The 3Is (Intelligence, Intentionality, Identity):** Unlike computational complexity models (like flocking birds), human systems are driven by the ability to abstract (Intelligence), set deliberative goals (Intentionality), and navigate context (Identity). The protocol is designed around these 3Is, forcing abstraction via the ETU and intentionality via the IDP.
+*   **Homo-Narrans:** Because humans are storytelling animals, sense-making requires narrative. The ETU is not merely a data entry form; it is a micro-narrative that captures the context of a decision, which pure data tracking strips away. The TAC relationship provides the human-in-the-loop sense-making required to interpret these narratives.
+
 ### Epistemology: Feynman and the Value of Doubt
 
 The Exchange Protocol's approach to knowledge and decision-making is grounded in the epistemology articulated by Richard Feynman in *The Meaning of It All* [14].
@@ -95,7 +101,7 @@ The British Army Leadership Doctrine's philosophy of Mission Command—empowerin
 
 The Student Athlete Exchange Protocol (2026) is the culmination of a 29-year learning and living journey. It integrates the harsh reality of a 1997 NFL cut with the original insight of project-based experience (OSU Startup Weekend), the psychological understanding of transition (Level Launch), the accountability mechanisms of a digital platform (Productio), and the rigorous curriculum and TAC model (BMA Workup).
 
-By grounding these operational iterations in the foundational fundamentals of Drucker's self-management, military doctrines of followership and mission command, and the empirical rigor of Self-Determination Theory, Situation Awareness, and Feynman's scientific epistemology, the Exchange Protocol provides a verifiable, sovereign-grade architecture for athlete development.
+By grounding these operational iterations in the foundational fundamentals of Drucker's self-management, military doctrines of followership and mission command, and the empirical rigor of Self-Determination Theory, Situation Awareness, Feynman's scientific epistemology, and Cynefin Anthro-complexity, the Exchange Protocol provides a verifiable, sovereign-grade architecture for athlete development.
 
 ---
 
@@ -117,6 +123,7 @@ By grounding these operational iterations in the foundational fundamentals of Dr
 [14] Richard P. Feynman, "The Meaning of It All: Thoughts of a Citizen-Scientist" (1963). (Context: 11-Feynman-MeaningOfItAll.md)  
 [15] Mica R. Endsley and Debra G. Jones, "Designing for Situation Awareness: An Approach to User-Centered Design" (2004).  
 [16] "SA User-Centered Design" (Excerpt from Endsley and Jones).  
+[17] Dave Snowden, "Anthro-complexity," Cynefin.io Wiki (2016-2021). (Context: 12-Cynefin-Anthro-Complexity.md)  
 
 ---
 
