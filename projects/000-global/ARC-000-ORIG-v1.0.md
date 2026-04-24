@@ -95,6 +95,12 @@ The Exchange Protocol's approach to knowledge and decision-making is grounded in
 *   **The Rejection of Pseudo-Science:** Traditional athlete development often relies on anecdotal success stories ("this worked for me") and post-hoc rationalization. Feynman warns that "you can't prove anything by one occurrence" and that probability cannot be calculated after the event. The protocol combats this by requiring the continuous, rigorous capture of execution data. It replaces anecdote with audit trails.
 *   **Operationalizing Doubt:** Feynman argues that all scientific conclusions are uncertain guesses, and that progress requires leaving the "door to the unknown ajar." The athlete's Individual Development Plan (IDP) is treated not as a fixed blueprint, but as a hypothesis to be tested. The TAC does not provide "the answer," but rather helps the athlete formulate better guesses and test them against reality.
 
+### Political Economy: Sowell and Dispersed Knowledge
+
+The structural reason the Exchange Protocol is necessary is explained by Thomas Sowell's *Knowledge and Decisions* [19]. 
+*   **The Invisibility of Athletic Experience:** Sowell argues that the most valuable knowledge is dispersed, contextual, and time-sensitive—held by the person closest to the situation. It cannot be aggregated upward to a central authority without losing its meaning. The knowledge an athlete builds on the field (reading a formation, subordinating ego to mission) is dispersed knowledge. The traditional evaluation system (resumes, scouts, interviews) is a centralized authority structurally incapable of seeing it. This explains the 1997 49ers cut: the problem was not a lack of skill, but an information asymmetry.
+*   **Legibility Without Destruction:** Because dispersed knowledge cannot be aggregated upward, it must be verified locally. The Exchange Protocol solves the information asymmetry by verifying the athlete's strategic reasoning at the point of action (the Wardley Map and the ETU), co-signed by a practitioner who understands the domain. It makes dispersed knowledge legible to employers without destroying its context.
+
 ### Situation Awareness (SA) and User-Centered Design
 
 The Exchange Protocol's digital and operational interfaces are designed around the principles of Situation Awareness (SA) [15][16]. 
@@ -135,6 +141,7 @@ By grounding these operational iterations in the foundational fundamentals of Dr
 [16] "SA User-Centered Design" (Excerpt from Endsley and Jones).  
 [17] Dave Snowden, "Anthro-complexity," Cynefin.io Wiki (2016-2021). (Context: 12-Cynefin-Anthro-Complexity.md)  
 [18] Simon Wardley, "Bits or Pieces?" blog.gardeviance.org (2012-2015). (Context: 13-Wardley-Doctrine-Gameplay.md)
+[19] Thomas Sowell, "Knowledge and Decisions" (1980). (Context: 14-Sowell-KnowledgeAndDecisions.md)
 
 ---
 
