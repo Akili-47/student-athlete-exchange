@@ -73,6 +73,12 @@ The psychological engine of the Exchange Protocol is driven by Self-Determinatio
 *   **Authentic Leadership/Followership:** Research demonstrates that authentic leadership and authentic followership (enacting one's true self) coproduce the satisfaction of these basic needs, leading to higher autonomous work motivation and performance [12]. The TAC is trained to foster this authentic functioning.
 *   **Personal Application:** The protocol operationalizes SDT at the individual level. By forcing athletes to execute, capture, hone, and optimize their own experiences, the protocol builds the "Personal Human Infrastructure" required for resilience and intrinsic motivation [13].
 
+### Wardley Doctrine: Pioneers, Settlers, Town Planners (PST)
+
+The Exchange Protocol operationalizes Simon Wardley's value chain mapping and evolution models to create a structured practice environment for athletes [18].
+*   **The PST Rotation Model:** Traditional organizations structure by type (IT, Finance, Marketing). Wardley argues for structuring by evolution: Pioneers (explore the unknown), Settlers (build the product), Town Planners (industrialize the utility). In the Exchange, athletes practice leading and following *in context* by rotating through these roles across different sessions. In one session, they are the Pioneer mapping an uncharted domain; in the next, they are the Town Planner strictly enforcing the SCQA compliance of the session record.
+*   **Doctrine vs. Gameplay:** The protocol distinguishes between universally applicable principles (Doctrine) and context-specific strategic moves (Gameplay). The Exchange Protocol itself is Doctrine. The output of an Exchange session—the Wardley Map corrected by the TAC—is the discovery of Gameplay. The athlete graduates with a documented understanding of how to play the game in their chosen field.
+
 ### Cynefin Anthro-Complexity: Humans Are Not Ants
 
 The Exchange Protocol rejects the traditional engineering metaphor of athlete development—where the athlete is treated as a machine to be programmed or an algorithm to be optimized. This rejection is grounded in the Cynefin framework's concept of Anthro-complexity [17].
@@ -124,6 +130,7 @@ By grounding these operational iterations in the foundational fundamentals of Dr
 [15] Mica R. Endsley and Debra G. Jones, "Designing for Situation Awareness: An Approach to User-Centered Design" (2004).  
 [16] "SA User-Centered Design" (Excerpt from Endsley and Jones).  
 [17] Dave Snowden, "Anthro-complexity," Cynefin.io Wiki (2016-2021). (Context: 12-Cynefin-Anthro-Complexity.md)  
+[18] Simon Wardley, "Bits or Pieces?" blog.gardeviance.org (2012-2015). (Context: 13-Wardley-Doctrine-Gameplay.md)
 
 ---
 
