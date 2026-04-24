@@ -73,9 +73,15 @@ The psychological engine of the Exchange Protocol is driven by Self-Determinatio
 *   **Authentic Leadership/Followership:** Research demonstrates that authentic leadership and authentic followership (enacting one's true self) coproduce the satisfaction of these basic needs, leading to higher autonomous work motivation and performance [12]. The TAC is trained to foster this authentic functioning.
 *   **Personal Application:** The protocol operationalizes SDT at the individual level. By forcing athletes to execute, capture, hone, and optimize their own experiences, the protocol builds the "Personal Human Infrastructure" required for resilience and intrinsic motivation [13].
 
+### Epistemology: Feynman and the Value of Doubt
+
+The Exchange Protocol's approach to knowledge and decision-making is grounded in the epistemology articulated by Richard Feynman in *The Meaning of It All* [14].
+*   **The Rejection of Pseudo-Science:** Traditional athlete development often relies on anecdotal success stories ("this worked for me") and post-hoc rationalization. Feynman warns that "you can't prove anything by one occurrence" and that probability cannot be calculated after the event. The protocol combats this by requiring the continuous, rigorous capture of execution data. It replaces anecdote with audit trails.
+*   **Operationalizing Doubt:** Feynman argues that all scientific conclusions are uncertain guesses, and that progress requires leaving the "door to the unknown ajar." The athlete's Individual Development Plan (IDP) is treated not as a fixed blueprint, but as a hypothesis to be tested. The TAC does not provide "the answer," but rather helps the athlete formulate better guesses and test them against reality.
+
 ### Situation Awareness (SA) and User-Centered Design
 
-The Exchange Protocol's digital and operational interfaces are designed around the principles of Situation Awareness (SA) [14][15]. 
+The Exchange Protocol's digital and operational interfaces are designed around the principles of Situation Awareness (SA) [15][16]. 
 *   By organizing technology around the athlete's goals, tasks, and abilities, the protocol prevents "data overload" and "out-of-the-loop syndrome."
 *   The ETU and Work Ledger act as SA mechanisms, ensuring the athlete maintains Level 1 (Perception), Level 2 (Comprehension), and Level 3 (Projection) awareness of their own career trajectory.
 
@@ -89,7 +95,7 @@ The British Army Leadership Doctrine's philosophy of Mission Command—empowerin
 
 The Student Athlete Exchange Protocol (2026) is the culmination of a 29-year learning and living journey. It integrates the harsh reality of a 1997 NFL cut with the original insight of project-based experience (OSU Startup Weekend), the psychological understanding of transition (Level Launch), the accountability mechanisms of a digital platform (Productio), and the rigorous curriculum and TAC model (BMA Workup).
 
-By grounding these operational iterations in the foundational fundamentals of Drucker's self-management, military doctrines of followership and mission command, and the empirical rigor of Self-Determination Theory and Situation Awareness, the Exchange Protocol provides a verifiable, sovereign-grade architecture for athlete development.
+By grounding these operational iterations in the foundational fundamentals of Drucker's self-management, military doctrines of followership and mission command, and the empirical rigor of Self-Determination Theory, Situation Awareness, and Feynman's scientific epistemology, the Exchange Protocol provides a verifiable, sovereign-grade architecture for athlete development.
 
 ---
 
@@ -108,8 +114,9 @@ By grounding these operational iterations in the foundational fundamentals of Dr
 [11] Anja Van den Broeck and Gavin R. Slemp, "Leadership: A Self-Determination Theory Perspective," Oxford Handbook of Self-Determination Theory.  
 [12] Hannes Leroy, Frederik Anseel, William L. Gardner, Luc Sels, "Authentic Leadership, Authentic Followership, Basic Need Satisfaction, and Work Role Performance: A Cross-Level Study," Journal of Management (2015).  
 [13] "Personal Application: Leading Yourself" (Source unknown, synthesized document).  
-[14] Mica R. Endsley and Debra G. Jones, "Designing for Situation Awareness: An Approach to User-Centered Design" (2004).  
-[15] "SA User-Centered Design" (Excerpt from Endsley and Jones).  
+[14] Richard P. Feynman, "The Meaning of It All: Thoughts of a Citizen-Scientist" (1963). (Context: 11-Feynman-MeaningOfItAll.md)  
+[15] Mica R. Endsley and Debra G. Jones, "Designing for Situation Awareness: An Approach to User-Centered Design" (2004).  
+[16] "SA User-Centered Design" (Excerpt from Endsley and Jones).  
 
 ---
 
