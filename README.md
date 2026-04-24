@@ -109,6 +109,7 @@ student-athlete-exchange/
 │   │   ├── ARC-000-BRIEF-ADMIN-v1.0.md # Administrator briefing (for ADs, career services, sponsors)
 │   │   ├── ARC-000-DPIA-v1.0.md      # Data protection (FERPA + GDPR-adjacent)
 │   │   ├── ARC-000-FRMW-v1.0.md      # Compliance framework (chapter template)
+│   │   ├── ARC-000-RISK-R03-ANALYSIS-v1.0.md # Risk R-03 drill-down (GDPR Article 17 vs. Bitcoin immutability)
 │   │   └── wardley-maps/
 │   │       └── ARC-000-WARD-v1.0.md  # Protocol Wardley map
 │   └── 001-chapter-mvp/
@@ -141,6 +142,7 @@ The full governance architecture is publicly verifiable. Each document is linked
 | [Administrator Briefing](projects/000-global/ARC-000-BRIEF-ADMIN-v1.0.md) | One-page brief for athletic directors, career services, and sponsors |
 | [Data Protection Impact Assessment](projects/000-global/ARC-000-DPIA-v1.0.md) | FERPA and GDPR-adjacent protections |
 | [Compliance Framework](projects/000-global/ARC-000-FRMW-v1.0.md) | Protocol-wide compliance checklist (chapter template) |
+| [Risk R-03 Analysis](projects/000-global/ARC-000-RISK-R03-ANALYSIS-v1.0.md) | GDPR Article 17 drill-down — input to external legal review |
 | [Stakeholder Analysis](projects/001-chapter-mvp/ARC-001-STKE-v1.0.md) | Athletes, domain experts (TACs), universities, and partner organizations |
 | [Risk Register](projects/001-chapter-mvp/ARC-001-RISK-v1.0.md) | Seven risks, each rated and mitigated (Orange Book) |
 | [Business Case](projects/001-chapter-mvp/ARC-001-SOBC-v1.1.md) | Green Book 5-Case model for MEAC chapter engagement |
