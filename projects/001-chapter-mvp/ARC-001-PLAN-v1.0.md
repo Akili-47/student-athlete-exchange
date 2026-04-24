@@ -129,7 +129,7 @@ The POC session produces the evidence that closes the contract.
 
 | Item | Description |
 |---|---|
-| Pitch deck or one-pager | Derived from ARC-001-SOBC-v1.1 and ARC-001-STKE-v1.0. Points to repository for governance documentation. |
+| Pitch deck or one-pager | Derived from ARC-001-SOBC-v1.1 and ARC-001-STKE-v2.0. Points to repository for governance documentation. |
 | Signed POC letter of intent or university contract | Date, institution name, point of contact, session scope. |
 | Athlete cohort confirmed | Minimum four athletes. Yellow participants (no domain experience) welcome. |
 
@@ -209,7 +209,7 @@ the university contract conversation.
 | Partner org deliverable | Published Wardley Map of partner organization's competitive landscape. Produced by athletes. Challenged by TAC. Delivered to partner org. |
 | Athlete portfolio entries | Dual-hashed, timestamped, athlete-accessible. Count: one per participating athlete. |
 | ETU dataset — session one | First SCQA record committed to repository. Seed of the ECHO substrate. |
-| POC evaluation memo | What worked. What broke. What the next session requires. Feeds ARC-001-PLAN-v2.0. |
+| POC evaluation memo | What worked. What broke. What the next session requires. Feeds ARC-001-PLAN-v1.0 updates. |
 
 **Gate:** Compliance verification report signed and all artifacts
 committed before the contract conversation is opened (if on POC path).
@@ -237,12 +237,12 @@ committed before the contract conversation is opened (if on POC path).
 | Document | Status | Purpose |
 |---|---|---|
 | ARC-000-PRIN-v1.0 | Approved | Six governing principles |
-| ARC-000-FRMW-v1.0 | Draft | Compliance checklist and TAC credential template |
-| ARC-001-SOBC-v1.1 | Draft | Strategic, Economic, Commercial, Financial, Management cases for MEAC pitch |
+| ARC-000-FRMW-v1.0 | **Not yet written** | Compliance checklist and TAC credential template |
+| ARC-001-SOBC-v1.1 | Approved | Strategic and economic case for MEAC pitch |
 | ARC-001-REQ-v1.0 | Approved | Session compliance requirements |
 | ARC-001-RISK-v1.0 | Approved | Risk register with mitigations |
-| ARC-001-STKE-v1.0 | Approved | Stakeholder analysis for MEAC context |
-| ARC-000-DPIA-v1.0 | Draft | Athlete data ownership legal basis (FERPA + GDPR-adjacent) |
+| ARC-001-STKE-v2.0 | Approved | Stakeholder analysis for MEAC context |
+| ARC-000-DPIA-v1.0 | **Not yet written** | Athlete data ownership legal basis |
 | ADR-004-v1.0 | **Not yet written** | Origin lineage decision record |
 
 ---
