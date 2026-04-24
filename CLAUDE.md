@@ -29,6 +29,8 @@ Public repository: `github.com/Akili-47/student-athlete-exchange`
 | DPIA | Data Protection Impact Assessment |
 | ADR | Architecture Decision Record |
 | METH | Methodology document |
+| ORIG | Origin and evidence document |
+| ENGM | Engagement strategy playbook |
 | PLAN | Deployment or operational plan |
 | BRIEF | Participant briefing. Athlete-facing by default (`ARC-{id}-BRIEF`); other audiences take a suffix (`ARC-{id}-BRIEF-TAC`, `ARC-{id}-BRIEF-ADMIN`) |
 
