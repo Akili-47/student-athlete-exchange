@@ -1,11 +1,12 @@
-# ARC-000-METH-v1.1 — Mapping Methodology and Learning Ecosystem
+# ARC-000-METH-v1.1 — The Exchange Protocol: Mapping Methodology and Learning Ecosystem
 
-**Document ID:** ARC-000-METH-v1.1  
 **Status:** Active  
-**Scope:** Global — applies to all Exchange chapters  
-**Owner:** Akili King, Lead Researcher  
+**Version:** 1.1  
+**Date:** April 2026  
+**Owner:** Akili King  
+**Repository:** student-athlete-exchange  
 
----
+-----
 
 > **In plain language.** Explains what Wardley Mapping is, why it works, and how athletes learn it. The method itself — not the maps athletes produce — is the skill they keep for life. Read this first if you want to understand why the Exchange does what it does.
 
@@ -126,3 +127,8 @@ No specialist software is required. Any text editor opens it. Any browser-based 
 The Exchange Protocol is MIT Licensed.  
 Session method: Creative Commons — Wardley Mapping by Simon Wardley (CC BY-SA 4.0).  
 Maps contributed to the Wardley Map Repository are licensed under CC BY-SA 4.0.
+
+---
+
+*This document is part of The Exchange Protocol governance architecture.
+Built with ArcKit. Stored in version control. Publicly verifiable.*

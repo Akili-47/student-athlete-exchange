@@ -132,7 +132,7 @@ creates a cryptographic ownership record
 that predates any institutional claim.
 Bitcoin-anchored timestamps establish
 athlete ownership at the moment of creation.
-DPIA (ARC-001-DPIA) documents the legal basis
+DPIA (ARC-000-DPIA) documents the legal basis
 for this boundary before university contract
 is signed. Contract language must explicitly
 acknowledge athlete ownership of portfolio entries.
