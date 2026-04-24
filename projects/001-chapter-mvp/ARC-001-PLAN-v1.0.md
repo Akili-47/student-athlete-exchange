@@ -209,7 +209,7 @@ the university contract conversation.
 | Partner org deliverable | Published Wardley Map of partner organization's competitive landscape. Produced by athletes. Challenged by TAC. Delivered to partner org. |
 | Athlete portfolio entries | Dual-hashed, timestamped, athlete-accessible. Count: one per participating athlete. |
 | ETU dataset — session one | First SCQA record committed to repository. Seed of the ECHO substrate. |
-| POC evaluation memo | What worked. What broke. What the next session requires. Feeds ARC-001-PLAN-v2.0. |
+| POC evaluation memo | What worked. What broke. What the next session requires. Feeds ARC-001-PLAN-v1.0 updates. |
 
 **Gate:** Compliance verification report signed and all artifacts
 committed before the contract conversation is opened (if on POC path).
