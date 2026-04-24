@@ -19,6 +19,8 @@ This map defines the strategic positioning of The Exchange against existing mark
 
 ## The Map
 
+**Interactive version:** [View and edit on OnlineWardleyMaps](https://onlinewardleymaps.com/#19cab2f2-9eae-4f41-a9a0-2aa9c1344824)
+
 ```text
 title Athlete Development Landscape — MEAC MVP Context
 anchor Employer [0.95, 0.50]
