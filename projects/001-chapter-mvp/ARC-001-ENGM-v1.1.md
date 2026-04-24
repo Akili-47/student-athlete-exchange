@@ -1,7 +1,7 @@
-# ARC-001-ENGM-v1.0 — The Exchange Protocol: Engagement Strategies
+# ARC-001-ENGM-v1.1 — The Exchange Protocol: Engagement Strategies
 
 **Status:** Approved  
-**Version:** 1.0  
+**Version:** 1.1  
 **Date:** April 2026  
 **Owner:** Akili King  
 **Repository:** student-athlete-exchange  
@@ -9,7 +9,7 @@
 
 ---
 
-> **In plain language.** How to talk to the people who can say yes or no to The Exchange. This document breaks down the specific opening argument, the likely objections, and the escalation path for each of the six primary stakeholders mapped in `ARC-001-STKE-v2.0.md`. 
+> **In plain language.** How to talk to the people who can say yes or no to The Exchange. This document breaks down the specific opening argument, the likely objections, and the escalation path for each of the primary stakeholders and gatekeepers mapped in `ARC-001-STKE-v2.0.md`. 
 
 ## Purpose
 
@@ -17,43 +17,45 @@ A stakeholder analysis tells you who is in the room. An engagement strategy tell
 
 This document operationalizes the stakeholder analysis into a playbook for deployment. It provides the specific framing required to move each actor from orientation to action, minimizing friction and anticipating objections before they are raised.
 
+*(Note on scope: This document covers the MEAC MVP deployment. It does not cover the Military / Service Member stakeholder population, which is mapped in the global stakeholder analysis but requires a separate, military-specific engagement playbook for future chapters.)*
+
 ---
 
-## 1. The Athletic Director (The Deployment Authority)
+## 1. The Athletic Director & Compliance Officer (The Deployment Authority)
 
-**The context:** Managing a shrinking budget under House v. NCAA settlement pressure. Needs auditable programming but cannot afford new headcount.
-**The goal:** Approval to run the MVP session.
+**The context:** At MEAC institutions with lean staffs, the AD and Compliance Officer are often in the same room for the first conversation. The AD needs auditable programming under budget pressure; the Compliance Officer needs absolute clarity on regulatory boundaries.
+**The goal:** Approval to run the MVP session and clearance that the protocol does not violate NCAA rules.
 
 ### The Opening Argument
-"The House settlement mandates beyond-NIL professional development, but every dollar you spend on compliance is a dollar you cannot spend on the field. The Exchange satisfies the professional development mandate and produces auditable records for SACSCOC accreditation — at zero marginal cost to your department. It replaces a career services function without requiring a contract to begin."
+"The House settlement mandates beyond-NIL professional development, but every dollar you spend on compliance is a dollar you cannot spend on the field. The Exchange satisfies the professional development mandate and produces auditable records for SACSCOC accreditation — at zero marginal cost to your department. It is classified strictly under NCAA Bylaw 16.3 as permissible career counseling. Every session is co-signed, version-controlled, and publicly auditable. There is no liability in the documentation because the documentation is the product."
 
 ### Likely Objections & Handling
-- **Objection:** "We already have a leadership program."
+- **Objection (from AD):** "We already have a leadership program."
 - **Response:** "Leadership programs produce stories. The Exchange produces a verifiable artifact — a map of a real industry, co-signed by a practitioner — that proves the athlete can read a domain they have never worked in. Employers hire for judgment, not stories."
-- **Objection:** "I don't have the staff to run this."
-- **Response:** "It requires zero FTEs. The protocol runs itself. The Map Lead runs the session, the TAC provides the expertise, and the output is committed to a public repository."
+- **Objection (from Compliance):** "Are the TACs providing impermissible extra benefits or NIL inducements?"
+- **Response:** "No. TACs are providing career counseling and life skills programming, which is explicitly mandated by Bylaw 16.3.1.2. The Athlete Participation Agreement explicitly separates this from athletic performance, satisfying Bylaw 12."
 
 ### Escalation Path
-If the AD hesitates on compliance grounds, immediately bring in the Compliance Officer and pivot to the regulatory argument (Bylaw 16.3).
+If the AD hesitates on operational grounds, offer to run a single, zero-cost pilot session. If the Compliance Officer hesitates on regulatory grounds, escalate to Institutional Legal Counsel.
 
 ---
 
-## 2. The Compliance Officer (The Regulatory Veto)
+## 2. Institutional Legal Counsel (The Structural Gatekeeper)
 
-**The context:** The risk manager. Fears Bylaw 16 violations and misclassified NIL activity. Needs absolute clarity on boundaries.
-**The goal:** Clearance that the protocol does not violate NCAA amateurism or extra benefit rules.
+**The context:** Do not care about athlete development. Care entirely about institutional liability and House v. NCAA settlement exposure. They hold the structural veto.
+**The goal:** Legal clearance that the protocol architecture shields the institution from liability.
 
 ### The Opening Argument
-"The Exchange is classified strictly under NCAA Bylaw 16.3 as permissible career counseling and professional development. It is not an NIL inducement. Every session is co-signed, version-controlled, and publicly auditable. There is no liability in the documentation because the documentation is the product."
+"The Exchange is an open-source, version-controlled professional development protocol. It operates under NCAA Bylaw 16.3. It requires no institutional funding, creates no employment relationship, and involves no athletic performance. The Athlete Participation Agreement indemnifies the institution, and the public audit trail of every session ensures transparent compliance with SACSCOC Standard 12.1."
 
 ### Likely Objections & Handling
-- **Objection:** "Is the Wardley Map considered an athletic service or NIL deliverable?"
-- **Response:** "No. It is an academic and professional work product. The Athlete Participation Agreement explicitly separates this from athletic performance, satisfying Bylaw 12."
-- **Objection:** "Are the TACs providing impermissible extra benefits?"
-- **Response:** "No. TACs are providing career counseling and life skills programming, which is explicitly mandated by Bylaw 16.3.1.2. They provide no financial compensation or preferential treatment."
+- **Objection:** "Who owns the intellectual property of the Wardley Maps?"
+- **Response:** "The athlete owns their work product. The institution claims no ownership over the portfolio, which removes the institution from any commercial liability regarding the output."
+- **Objection:** "Does this create a Title IX or equity issue if only certain athletes participate?"
+- **Response:** "The protocol is open to any athlete who commits to the pre-work. It is a strictly opt-in, academic/professional development exercise, not a resource allocated by the athletic department."
 
 ### Escalation Path
-Provide the SOBC (`ARC-001-SOBC-v1.1.md`) and the Stakeholder Analysis (`ARC-001-STKE-v2.0.md`) directly to Institutional Legal Counsel for review.
+Provide the full repository — specifically `ARC-001-SOBC-v1.1.md` and the template folder — so counsel can review the exact documents the athlete signs.
 
 ---
 
@@ -63,7 +65,7 @@ Provide the SOBC (`ARC-001-SOBC-v1.1.md`) and the Stakeholder Analysis (`ARC-001
 **The goal:** Acceptance of the Wardley Map portfolio as a valid, differentiated credential.
 
 ### The Opening Argument
-"Every resume tells a story, and every candidate claims to be a strategic thinker. The athletes coming out of The Exchange don't tell stories. They bring the board. They will hand you a documented record of how they mapped a real industry, corrected by a veteran operator, under conditions that cannot be faked. You will be looking at actual judgment, not claimed potential."
+"Every resume tells a story, and every candidate claims to be a strategic thinker. The athletes coming out of The Exchange don't tell stories. They bring the board. They will hand you a documented record of how they mapped **your specific industry**, corrected by a veteran operator in your field, under conditions that cannot be faked. You will be looking at actual judgment, not claimed potential."
 
 ### Likely Objections & Handling
 - **Objection:** "I don't know how to read a Wardley Map."
@@ -137,7 +139,8 @@ Connect the athlete with a peer who has completed a session and used the portfol
 
 | Version | Date | Change |
 |---|---|---|
-| 1.0 | April 2026 | Initial release — Playbook for all six primary stakeholders |
+| 1.0 | April 2026 | Initial release — Playbook for six primary stakeholders |
+| 1.1 | April 2026 | Patched gaps — Combined AD/Compliance into single conversation path; added Institutional Legal Counsel entry; specified employer domain targeting; noted military scope boundary |
 
 ---
 
