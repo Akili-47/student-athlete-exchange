@@ -35,7 +35,7 @@ When you finish, you will have a verifiable record showing exactly how you reaso
 Before the session, you will research a specific industry or company and build a Wardley Map. A Wardley Map is a visual picture of how value moves from raw components to the end user. You will place components based on what you find in public research.
 
 ### 2. The Session (The Challenge)
-You will present your map to a TAC (Tactical Advisory Challenger). The TAC is a veteran operator with 10+ years of experience in the industry you just mapped. 
+You will present your map to a TAC (Tactical Advisory Challenger). The TAC is a veteran operator who has worked in the industry you just mapped within the last five years. 
 
 They are not there to be nice. They are there to tell you where your assumptions are wrong based on what actually happens in the room. They will challenge your component placements. You will defend them or adjust them.
 
@@ -48,6 +48,9 @@ In the last ten minutes of the session, you and the Map Lead will capture the **
 
 ### 4. The Portfolio (The Proof)
 The TAC co-signs the ETU. The record is committed to a public repository. You now have a permanently verifiable artifact that proves you can read an industry you have never worked in, accept new intelligence, and adjust your strategy in real time.
+
+### 5. The Rotation (The Arc)
+You do not do the same thing every session. Across the program, you will rotate through different cognitive roles. In one session, you will be the **Pioneer**, mapping an industry with no playbook. In the next, you will be the **Town Planner**, running the room as the Map Lead and enforcing strict logic. You practice reading the map, and you practice defending the map.
 
 ---
 

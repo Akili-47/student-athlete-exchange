@@ -45,7 +45,7 @@ Student Athlete -> Professional Network
 Student Athlete -> Compliance Tracking
 Student Athlete -> Resume Formatting
 
-Signal of Judgment -> The Exchange Protocol
+The Exchange Protocol -> Signal of Judgment
 Professional Network -> Athlete Network
 Compliance Tracking -> INFLCR / Opendorse
 Resume Formatting -> University Career Services
